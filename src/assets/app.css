@@ -1,0 +1,41 @@
+html {font-size:12px;}
+body {width:100%;height:100%;margin:0;padding:0;color:#576077;background-color:#F0F0F0;line-height:1.5rem;font-size:1.2rem;font-family: "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;}
+
+*:before, *:after {box-sizing: border-box;}
+ul {padding:0;margin-left: 20px}
+.flip-h {transform: rotateY(180deg);}
+a:focus, a:hover {text-decoration: none;}
+hr {margin:1rem 0;}
+
+button > span {display: inline-flex;align-items:center;height:100%;width:100%;justify-content: center;text-align: center;}
+svg {fill: currentColor;max-height:64px;max-width:64px;}
+svg + span {margin-left:5px;}
+.svg-icon {width:20px;height:20px;}
+.icon-user {width:24px;height:24px;color:#dde2ef;}
+#svg-icon-user11 circle {fill:#f00;}
+
+.container {padding:0 1.5rem;line-height: 1.42857143;}
+[class~=container] .container-align {margin:0 -1.5rem;width:auto;}
+
+#app .main {padding: 20px; background-color: #fff}
+
+#app .el-button {font-size:12px;padding:8px 16px;position:relative;color:#576077;border-radius:3px;}
+#app .el-button:hover {color: #F58A7F; border-color: #F58A7F; background-color: #fff}
+#app .el-button.el-button--primary, .el-button--primary {background-color: #F58A7F !important; border-color:#F58A7F !important; color:#fff;}
+.el-button.el-button--default.el-button--small:hover {background-color: #fff;border-color:#F58A7F; color:#F58A7F;}
+.el-button.el-button--default.el-button--small.el-button--primary:hover {background-color: #F58A7F;border-color:#F58A7F; color:#fff;}
+
+.el-dropdown-menu {min-width:120px;margin:0;font-size:1.2rem;max-width:30rem;background-color:#fafaff;padding:0;white-space: nowrap;}
+.el-dropdown-menu > li {padding-left: 3.5rem; position: relative;color: #F58A7F}
+.el-dropdown-menu > li:hover {padding-left: 3.5rem; position: relative;background-color: #F58A7F !important;color:#fff !important;}
+.el-dropdown-menu > .panel {background-color:transparent;border-radius:0;box-shadow:none;}
+.el-dropdown-menu > .panel:last-child {margin:0;padding:1.5rem;}
+.el-dropdown--inner {position:relative;}
+
+.el-message-box__headerbtn .el-message-box__close:hover {color: #F58A7F !important;}
+.el-message-box__headerbtn:hover {color: #F58A7F !important;}
+
+.el-dialog__header {background-color: #F58A7F;}
+.el-dialog__title {color: #fff; font-weight: 700}
+.el-dialog__headerbtn .el-dialog__close {color:#fff; font-weight: 700}
+.el-dialog__headerbtn:focus .el-dialog__close, .el-dialog__headerbtn:hover .el-dialog__close {color:#fff;}
