@@ -207,7 +207,7 @@ export default {
 .sidebar .el-menu-item, .sidebar .el-submenu__title {height:50px;line-height:50px;padding:0;}
 .sidebar .el-menu-item.is-active, .sidebar .el-submenu.is-active .el-submenu__title {color:#fff;background-color:#17191E;}
 .sidebar .el-menu {background-color:transparent;border-radius:0;transition: none;border:none;}
-.sidebar .el-menu.el-menu--collapse {width:100%;transition: none;}
+.sidebar .el-menu.el-menu--collapse {width:56px;transition: none;}
 .sidebar .el-menu li > ul {background-color:#272930;}
 .sidebar .el-menu--collapse .el-submenu .el-menu {position:relative;margin:0;top:0;left:0;border-radius:none;}
 .sidebar .icon-route {width:52px;height:50px;color:#828899;text-align:center;line-height:50px;margin:0;padding:0;position:absolute;display:flex;align-items:center;justify-content:center;visibility:visible;}
@@ -218,8 +218,9 @@ export default {
 .sidebar .el-submenu .el-menu-item.is-active {background-color:#F0F0F0;color:#17191E;padding:0;transition: all .3s ease-out;border-right: 2px solid #272930;}
 .sidebar .el-submenu .el-menu-item .title {font-size:12px;}
 .sidebar .el-submenu .el-menu-item .icon-route {height:42px; line-height:42px;}
-.sidebar .el-menu-item > .el-tooltip {position:relative;height:100%;width:100%;}
+.sidebar .el-menu-item > .el-tooltip {position:relative;height:100%;width:56px;}
 .sidebar .el-submenu .el-menu-item.is-active .title {color:inherit;}
 .sidebar .el-submenu .el-menu {border:none;}
 .sidebar .el-menu-item .icon-route > span, .sidebar .el-submenu__title .icon-route span {visibility:visible;display:inline-flex;width:auto;height:auto;}
+.sidebar ::-webkit-scrollbar{display:none;}
 </style>
